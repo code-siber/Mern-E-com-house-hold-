@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Appliances</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#819A91",
+            secondary: "#E4EFE7",
+            cardbg: "#BAC095",
+            blue: "#007acc",
+            dark: "#2d2d30",
+            darklight: "#3e3e42",
+          },
+        },
+      },
+    };
+  
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <h1 class="text-center text-white py-1 bg-gray-600 w-full ">
+    Notice
+  </h1>
+  <header class="sticky top-0 shadow-lg bg-gray-500 z-50">
+
+    <div class="container mx-auto shadow-lg">
+
+      <div class=" flex justify-between py-4 pl-10 pr-10   items-center">
+        <div>Logo</div>
+        <nav class="hidden sm:block">
+          <div class="flex space-x-5">
+            <div>
+              <a href="#" class="text-secondary font-medium hover:text-dark">Home</a>
+            </div>
+            <div>
+              <a href="#about" class="text-secondary font-medium hover:text-dark">About</a>
+            </div>
+            <div>
+              <a href="#product" class="text-secondary font-medium hover:text-dark">Products</a>
+            </div>
+            <div>
+              <a href="#service" class="text-secondary font-medium hover:text-dark">Services</a>
+            </div>
+            <div>
+              <a href="#blogs" class="text-secondary font-medium hover:text-dark">Blogs</a>
+            </div>
+            <div>
+              <a href="#contact" class="text-secondary font-medium hover:text-dark">Contact</a>
+            </div>
+          </div>
+        </nav>
+        <div class="flex space-x-5">
+          <i class="fa-regular fa-moon text-secondary hover:text-dark"></i>
+          <i class="fa-solid fa-cart-shopping text-secondary hover:text-dark"></i>
+          <i class="fa-solid fa-bars text-secondary hover:text-dark"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero page start -->
+    <section class="w-full bg-gray-400 px-10 py-20">
+
+      <div class="container mx-auto ">
+        <div class="flex flex-col mb-5 space-y-5 md:flex-row items-center gap-x-20">
+          <div class="md:w-1/2">
+            <h1 class="text-4xl mb-5 md:5xl font-bold text-dark">
+              Innovative <span class="text-blue">Techno</span> Products
+            </h1>
+            <p class="text-lg text-darklight text-justify mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Ratione ea dolore, culpa blanditiis veritatis eos quod repellat
+              aut eveniet quidem commodi explicabo accusamus magni,
+              repellendus saepe, quis reiciendis vero corporis!
+            </p>
+            <div class="flex space-x-5 mb-5">
+              <button
+                class="bg-blue text-white text-md text-medium rounded-lg py-2 px-4 hover:bg-primary border border-blue transition duration 300">
+                Shop Now
+              </button>
+              <button
+                class="bg-primary text-white text-md text-medium rounded-lg py-2 px-4 hover:bg-blue border border-white transition duration 300">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="md:w-1/2 z-0">
+            <div class="relative w-full max-w-md z-0">
+              <div class="absolute -left-5 -top-5 w-full h-full bg-secondary rounded-2xl "></div>
+              <img class="relative rounded-2xl shadow-lg object-cover overflow-hidden shadow-lg"
+                src="https://weddingservices.co.in/wsimages/1672985779_household-appliances.jpg" alt="" />
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- hero page end -->
+
+
+    <!-- shop with us page -->
+    <section class="w-full bg-gray-300 py-10 px-10 " id="about">
+      <div class="container mx-auto ">
+        <h2 class="text-center text-3xl text-dark font-bold pb-10">
+          Why Shop With Us
+        </h2>
+        <!-- card -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-10 ">
+          <div
+            class="bg-secondary w-full py-10 px-10 space-y-2 rounded-xl shadow-lg hover:-translate-y-1 transition-transform duration-300 ease-out flex flex-col items-center">
+            <div class="rounded-full bg-primary/10  h-14 w-14 flex items-center justify-center"><i
+                class="fa-solid fa-truck-fast text-xl text-blue"></i></div>
+            <div>
+              <h3 class="text-2xl font-medium text-dark">Free Shipping</h3>
+            </div>
+            <div>
+              <p class="text-darklight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-secondary w-full py-10 px-10 space-y-5 rounded-xl shadow-lg hover:-translate-y-1 transition-transform duration-300 ease-out">
+            <div class="rounded-full bg-primary/10  h-14 w-14 flex items-center justify-center"><i
+                class="fa-solid fa-truck-fast text-xl text-blue"></i></div>
+            <div class="space-y-2">
+              <h3 class="text-2xl font-medium text-dark">Free Shipping</h3>
+              <p class="text-darklight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-secondary w-full py-10 px-10 space-y-5 rounded-xl shadow-lg hover:-translate-y-1 transition-transform duration-300 ease-out">
+            <div class="rounded-full bg-primary/10  h-14 w-14 flex items-center justify-center"><i
+                class="fa-solid fa-truck-fast text-xl text-blue"></i></div>
+            <div class="space-y-2">
+              <h3 class="text-2xl font-medium text-dark">Free Shipping</h3>
+              <p class="text-darklight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- shop with us page end -->
+
+    <!-- popular product page -->
+    <section class="w-full bg-gray-400 px-10" id="product">
+      <div class="container mx-auto pt-5 pb-10">
+        <h3 class="text-3xl text-dark font-medium pb-10 pt-10 ">Popular Products</h3>
+        <div class="grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4 xl:gird-cols-5 gap-x-5">
+          <div class="bg-cardbg rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-1 transition duration-300">
+            <div class="relative">
+              <p class="absolute top-5 right-5 bg-red-500 text-white text-sm rounded-xl font-medium py-2 px-4">Sale
+              </p>
+              <img src="https://plus.unsplash.com/premium_photo-1718186096304-e8a0be862bc7?q=80&w=800" alt=""
+                class="w-full max-h-80 object-cover pb-5 ">
+            </div>
+            <div class="px-10">
+              <p class="text-darklight text-xl font-bold">
+                Mixer
+              </p>
+              <div class="space-x-1 flex items-center">
+                <i class="fa-solid fa-star text-yellow-200"></i>
+                <i class="fa-solid fa-star text-yellow-200"></i>
+                <i class="fa-solid fa-star text-yellow-200"></i>
+                <i class="fa-solid fa-star text-yellow-200"></i>
+                <i class="fa-solid fa-star text-yellow-200"></i>
+                <span class="text-darklight pl-2">(521)</span>
+              </div>
+              <div class="flex justify-between items-center pb-5">
+                <div class="flex space-x-2">
+                  <span class="text-dark text-xl font-medium">
+                    $999
+                  </span>
+                  <span class="text-darklight text-lg line-through decoration-red-500 italic">
+                    $1200
+                  </span>
+                </div>
+                <div><i
+                    class="fa-solid fa-cart-arrow-down text-blue bg-secondary text-xl rounded-full w-10 h-10 flex justify-center items-center hover:bg-blue hover:text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-cardbg rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-1 transition duration-300">
+            <div class="relative">
+              <p class="absolute top-5 right-5 bg-red-500 text-white text-sm rounded-xl font-medium py-2 px-4">Sale
+              </p>
+              <img src="https://plus.unsplash.com/premium_photo-1718186096304-e8a0be862bc7?q=80&w=800" alt=""
+                class="w-full max-h-80 object-cover pb-5 ">
+            </div>
+            <div class="px-10">
+              <p class="text-darklight text-xl font-bold">
+                Mixer
+              </p>
+              <div class="space-x-1 flex items-center">
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <span class="text-darklight pl-2">(521)</span>
+              </div>
+              <div class="flex justify-between items-center pb-5">
+                <div class="flex space-x-2">
+                  <span class="text-dark text-xl font-medium">
+                    $999
+                  </span>
+                  <span class="text-darklight text-lg line-through decoration-red-500 italic">
+                    $1200
+                  </span>
+                </div>
+                <div><i
+                    class="fa-solid fa-cart-arrow-down text-blue bg-secondary text-xl rounded-full w-10 h-10 flex justify-center items-center hover:bg-blue hover:text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-cardbg rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-1 transition duration-300">
+            <div class="relative">
+              <p class="absolute top-5 right-5 bg-red-500 text-white text-sm rounded-xl font-medium py-2 px-4">Sale
+              </p>
+              <img src="https://plus.unsplash.com/premium_photo-1718186096304-e8a0be862bc7?q=80&w=800" alt=""
+                class="w-full max-h-80 object-cover pb-5 ">
+            </div>
+            <div class="px-10">
+              <p class="text-darklight text-xl font-bold">
+                Mixer
+              </p>
+              <div class="space-x-1 flex items-center">
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <span class="text-darklight pl-2">(521)</span>
+              </div>
+              <div class="flex justify-between items-center pb-5">
+                <div class="flex space-x-2">
+                  <span class="text-dark text-xl font-medium">
+                    $999
+                  </span>
+                  <span class="text-darklight text-lg line-through decoration-red-500 italic">
+                    $1200
+                  </span>
+                </div>
+                <div><i
+                    class="fa-solid fa-cart-arrow-down text-blue bg-secondary text-xl rounded-full w-10 h-10 flex justify-center items-center hover:bg-blue hover:text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-cardbg rounded-3xl overflow-hidden shadow-2xl hover:-translate-y-1 transition duration-300">
+            <div class="relative">
+              <p class="absolute top-5 right-5 bg-red-500 text-white text-sm rounded-xl font-medium py-2 px-4">Sale
+              </p>
+              <img src="https://plus.unsplash.com/premium_photo-1718186096304-e8a0be862bc7?q=80&w=800" alt=""
+                class="w-full max-h-80 object-cover pb-5 ">
+            </div>
+            <div class="px-10">
+              <p class="text-darklight text-xl font-bold">
+                Mixer
+              </p>
+              <div class="space-x-1 flex items-center">
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <i class="fa-solid fa-star text-yellow-900"></i>
+                <span class="text-darklight pl-2">(521)</span>
+              </div>
+              <div class="flex justify-between items-center pb-5">
+                <div class="flex space-x-2">
+                  <span class="text-dark text-xl font-medium">
+                    $999
+                  </span>
+                  <span class="text-darklight text-lg line-through decoration-red-500 italic">
+                    $1200
+                  </span>
+                </div>
+                <div><i
+                    class="fa-solid fa-cart-arrow-down text-blue bg-secondary text-xl rounded-full w-10 h-10 flex justify-center items-center hover:bg-blue hover:text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popular product page end -->
+
+    <!-- costumer review page  -->
+    <section class="w-full bg-gradient-to-r from-[#d1cbc5] to-[#faf9f6] pt-10" id="blogs">
+      <div class="container mx-auto py-10 px-10">
+        <div>
+          <h3 class="text-3xl font-medium pb-10">What Our Customers Say</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 ">
+          <div class="space-y-5 px-5 hover:-translate-y-1 transition duration-300 shadow-2xl py-5">
+            <div class="flex space-x-5 space-y-5 items-center">
+              <div>
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=128" alt=""
+                  class="h-14 w-14 rounded-full object-cover">
+              </div>
+              <div>
+                <h4 class="text-dark font-medium text-lg">Bishal Manandhar</h4>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod neque ab voluptas
+                itaque quibusdam ipsam possimus sint quos ipsa, aliquid omnis cumque at ea! Velit, ad quia! Odio minus
+                repellendus fugiat iusto fuga sunt dolor harum culpa ea voluptates eius quaerat necessitatibus, quos
+                ducimus nam a fugit neque error.</span>
+            </div>
+          </div>
+
+          <div class="space-y-5 px-5 hover:-translate-y-1 transition duration-300 shadow-2xl py-5">
+            <div class="flex space-x-5 space-y-5 items-center">
+              <div>
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=128" alt=""
+                  class="h-14 w-14 rounded-full object-cover">
+              </div>
+              <div>
+                <h4 class="text-dark font-medium text-lg">Bishal Manandhar</h4>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod neque ab voluptas
+                itaque quibusdam ipsam possimus sint quos ipsa, aliquid omnis cumque at ea! Velit, ad quia! Odio minus
+                repellendus fugiat iusto fuga sunt dolor harum culpa ea voluptates eius quaerat necessitatibus, quos
+                ducimus nam a fugit neque error.</span>
+            </div>
+          </div>
+
+          <div class="space-y-5 px-5 hover:-translate-y-1 transition duration-300 shadow-2xl py-5">
+            <div class="flex space-x-5 space-y-5 items-center">
+              <div>
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=128" alt=""
+                  class="h-14 w-14 rounded-full object-cover">
+              </div>
+              <div>
+                <h4 class="text-dark font-medium text-lg">Bishal Manandhar</h4>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod neque ab voluptas
+                itaque quibusdam ipsam possimus sint quos ipsa, aliquid omnis cumque at ea! Velit, ad quia! Odio minus
+                repellendus fugiat iusto fuga sunt dolor harum culpa ea voluptates eius quaerat necessitatibus, quos
+                ducimus nam a fugit neque error.</span>
+            </div>
+          </div>
+
+          <div class="space-y-5 px-5 hover:-translate-y-1 transition duration-300 shadow-2xl py-5">
+            <div class="flex space-x-5 space-y-5 items-center">
+              <div>
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=128" alt=""
+                  class="h-14 w-14 rounded-full object-cover">
+              </div>
+              <div>
+                <h4 class="text-dark font-medium text-lg">Bishal Manandhar</h4>
+                <div>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                  <i class="fa-solid fa-star text-yellow-200"></i>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quod neque ab voluptas
+                itaque quibusdam ipsam possimus sint quos ipsa, aliquid omnis cumque at ea! Velit, ad quia! Odio minus
+                repellendus fugiat iusto fuga sunt dolor harum culpa ea voluptates eius quaerat necessitatibus, quos
+                ducimus nam a fugit neque error.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- costumer review page end -->
+
+    <!-- suscribe page -->
+    <section class="w-full bg-gradient-to-r from-[#AAC4F5] to-[#8CA9FF]">
+      <div class="container mx-auto py-10 px-10 space-y-5">
+        <div class="flex justify-center flex-col items-center space-y-5 ">
+          <h3 class="text-3xl text-white font-semibold ">Stay Updated with Tech Products</h3>
+          <span class="text-darklight">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, obcaecati.
+            Quam nisi illum blanditiis magnam quibusdam, fugit nulla omnis. Voluptas.</span>
+        </div>
+
+        <div class="flex justify-center">
+          <div>
+            <label for="email"></label>
+            <input type="email" name="" id="" placeholder="Your Email Address"
+              class="px-4 py-1 rounded-tl-md rounded-bl-md outline-none">
+          </div>
+          <div>
+            <button class="bg-blue text-white rounded-tr-md rounded-br-md px-4 py-1">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- suscribe page end -->
+
+    <!-- contact page -->
+    <section class="w-full bg-gray-400" id="contact">
+      <div class="container mx-auto py-10 px-10">
+
+        <h3 class="text-3xl font-medium flex justify-center pb-10 items-center">Get In Touch
+        </h3>
+
+        <h2 class="hidden md:text-xl font-medium flex justify-center py-20"> Contact Form</h2>
+        <div class="grid grid-cols-1 items-start space-y-5 md:grid-cols-2">
+          <div class="flex flex-col space-y-5">
+            <h2 class="text-xl font-medium">Contact Information</h2>
+            <div class="flex space-x-5 items-center">
+              <div>
+                <i
+                  class="fa-solid fa-map-location text-blue rounded-full bg-[#CBCBCB] w-8 h-8 flex justify-center items-center "></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-medium ">Our Location</span>
+                <span class="text-darklight">Banepa-6,Kavre</span>
+              </div>
+            </div>
+            <div class="flex space-x-5 items-center">
+              <div>
+                <i
+                  class="fa-solid fa-phone text-blue rounded-full bg-[#CBCBCB] w-8 h-8 flex justify-center items-center "></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-medium ">Phone Number</span>
+                <span class="text-darklight">+977-9841000000</span>
+              </div>
+            </div>
+            <div class="flex space-x-5 items-center">
+              <div>
+                <i
+                  class="fa-solid fa-envelope text-blue rounded-full bg-[#CBCBCB] w-8 h-8 flex justify-center items-center "></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="font-medium ">Email</span>
+                <span class="text-darklight">123@gmail.com</span>
+              </div>
+            </div>
+
+          </div>
+          <div>
+            <div class="pb-5">
+              <h2 class="text-xl font-medium pt-5">Send Us a Message</h2>
+            </div>
+            <div>
+              <form action="">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                  <div>
+                    <label for="name" class="block text-darklight font-medium mb-1">Your Name</label>
+                    <input type="text" name="name" id="name"
+                      class="w-full py-2 px-4 outline-none rounded-lg focus:outline-primary mb-5">
+                  </div>
+                  <div>
+                    <label for="email" class="block text-darklight font-medium mb-1">Your Email</label>
+                    <input type="email" name="email" id="email"
+                      class="w-full py-2 px-4 outline-none rounded-lg focus:outline-primary mb-5">
+                  </div>
+
+
+                </div>
+                <div>
+                  <label for="subject" class="block text-darklight font-medium mb-1">Your Subject</label>
+                  <input type="text" name="subject" id="subject"
+                    class="w-full py-2 px-4 outline-none rounded-lg focus:outline-primary mb-5">
+                </div>
+                <div class="mb-5">
+                  <label for="message" class="block text-darklight font-medium mb-1 ">Your message</label>
+                  <textarea name="message" id="message" class="w-full py-2 px-4 outline-none rounded-lg focus:outline-primary mb-5"></textarea>
+                </div>
+                <button
+                  class="py-2 px-4 bg-blue text-white font-semibold rounded-xl mb-5 hover:text-blue hover:bg-white">Send
+                  Message</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact page end -->
+   
+  </main>
+
+  <!--footer section-->
+  <footer>
+     <section class="bg-[#525252] w-full ">
+      <div class="container mx-auto py-10 px-10">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+          <div>
+            <h3 class="text-lg font-medium text-white ">Techno</h3>
+            <div>
+              <span class="text-white/50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis unde
+                velit iure debitis magni porro quam minima quas veritatis alias.</span>
+            </div>
+
+
+            <div class=" flex space-x-5 pb-10 pt-5">
+              <div class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white">
+                <i class="fa-brands fa-facebook text-lg text-blue "></i>
+              </div>
+              <div class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white">
+                <i class="fa-brands fa-tiktok text-lg text-blue "></i>
+              </div>
+              <div class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white">
+                <i class="fa-brands fa-instagram text-lg text-blue "></i>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <h3 class="text-lg font-medium text-white ">Quick links</h3>
+            </div>
+            <div class="flex flex-col space-y-2 pb-10">
+              <a href="#" class="text-white hover:text-blue transition duration-300">Home</a>
+              <a href="#" class="text-white hover:text-blue transition duration-300">About</a>
+              <a href="#" class="text-white hover:text-blue transition duration-300">Product</a>
+              <a href="#" class="text-white hover:text-blue transition duration-300">Service</a>
+              <a href="#" class="text-white hover:text-blue transition duration-300">Blogs</a>
+              <a href="#" class="text-white hover:text-blue transition duration-300">Contact</a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-white ">Customer Services</h3>
+            <div class="flex flex-col space-y-2 pb-10">
+              <span class="text-white/50">Privacy Policy</span>
+              <span class="text-white/50">Terms of Service</span>
+              <span class="text-white/50">FAQs</span>
+              <span class="text-white/50">Support Center</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-white ">We Accept</h3>
+            <div class="flex space-x-5 pb-10">
+              <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                <i class="fa-brands fa-cc-visa text-blue "></i>
+              </div>
+              <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                <i class="fa-brands fa-cc-paypal text-[#1f264f] text-xl"></i>
+              </div>
+              <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                <i class="fa-brands fa-cc-apple-pay  text-black text-xl"></i>
+              </div>
+              <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                <i class="fa-brands fa-cc-mastercard text-red-500 text-xl"></i>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </footer>
+  <!-- footer section end -->
+
+</body>
+
+</html>
