@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+
+<header class="border-b border-gray-800 relative">
+  <div class="max-w-full mx-auto px-6 py-5 flex justify-between items-center">
+    <h1 class="text-2xl font-semibold">Premium Collection</h1>
+
+    <!-- Search Box Centered -->
+    <div class="relative w-1/2">
+      <input type="text"
+        placeholder="Search in venas premium..."
+        class="w-full rounded-md px-2.5 py-1 focus:outline-none focus:ring-2 focus:ring-yellow-400 text-yellow-950"
+      />
+      <!-- Mobile search button -->
+      <button class="sm:hidden absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500">
+        🔍
+      </button>
+    </div>
+
+
+    <a href="http://127.0.0.1:5501/front-end/Product.html" class="text-red-700 hover:text-yellow-300">
+      ← Back to Store
+    </a>
+  </div>
+</header>
+
+
+</header>
+
+<main class="max-w-7xl mx-auto px-6 py-12">
+  <section id="premium-section"
+    class="mb-14 bg-gradient-to-r from-gray-900 to-black border border-gray-800 rounded-2xl p-8">
+    <h2 class="text-3xl font-bold mb-3 text-yellow-400">Premium Member Exclusive</h2>
+    <p class="text-gray-400 max-w-2xl text-yellow-700">
+      Exclusive products for premium holders only.
+    </p>
+  </section>
+
+  <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" >
+    <div class="bg-gray-900 rounded-xl p-5 hover:ring-2 hover:ring-yellow-500 transition duration-300 hover:scale-105 hover:shadow-yellow-500/40">
+      <img src="item.png" class="rounded-lg mb-4">
+      <h3 class="font-semibold text-yellow-100">Premium Item</h3>
+      <span class="font-bold text-yellow-300">$999</span>
+    </div>
+  </div>
+
+</main>
+
+<footer class="border-t border-gray-800 mt-20 text-center py-6 text-sm">
+  © 2025 Product Store
+</footer>
+
+</body>
+</html>

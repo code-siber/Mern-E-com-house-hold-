@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order History</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-red-950 to-gray-950 shadow p-4">
+    <h1 class="text-2xl font-bold text-white">Your Order History</h1>
+  </header>
+
+  <!-- Orders Container -->
+  <main class="max-w-full bg-gray-300  mx-auto p-4">
+    <div class="grid gap-6">
+
+      <!-- Example Order Card -->
+      <div class="bg-white rounded-lg shadow p-6 flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div class="mb-4 md:mb-0">
+          <h2 class="text-lg font-semibold text-gray-700">Order #12345</h2>
+          <p class="text-gray-500">Placed on: 2025-12-16</p>
+        </div>
+        <div class="mb-4 md:mb-0">
+          <p class="text-gray-700">Items: 3</p>
+          <p class="text-gray-700">Total: $120</p>
+        </div>
+        <div>
+          <span class="px-3 py-1 rounded-full text-white font-semibold 
+                      bg-green-500">Delivered</span>
+        </div>
+      </div>
+
+      <!-- Another Order Example -->
+      <div class="bg-white rounded-lg shadow p-6 flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div class="mb-4 md:mb-0">
+          <h2 class="text-lg font-semibold text-gray-700">Order #12346</h2>
+          <p class="text-gray-500">Placed on: 2025-12-14</p>
+        </div>
+        <div class="mb-4 md:mb-0">
+          <p class="text-gray-700">Items: 1</p>
+          <p class="text-gray-700">Total: $45</p>
+        </div>
+        <div>
+          <span class="px-3 py-1 rounded-full text-white font-semibold 
+                      bg-yellow-500">Processing</span>
+        </div>
+      </div>
+
+      <!-- Add more orders as needed -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white mt-10 p-4 text-center text-gray-500 text-sm">
+    &copy; 2025 Your E-Commerce Site
+  </footer>
+
+</body>
+</html>
