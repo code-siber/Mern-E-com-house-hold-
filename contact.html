@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Appliances</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#819A91",
+              secondary: "#E4EFE7",
+              cardbg: "#BAC095",
+              blue: "#007acc",
+              dark: "#2d2d30",
+              darklight: "#3e3e42",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <h1 class="text-center text-white py-1 bg-gray-600 w-full">Notice</h1>
+
+    <header
+      class="sticky top-0 shadow-lg bg-gradient-to-r from-red-950 to-gray-950 z-50"
+    >
+      <div class="container mx-auto shadow-lg">
+        <div class="flex justify-between py-3 pl-10 pr-10 items-center">
+          <!-- LOGO -->
+          <a href="#" class="flex items-center">
+            <img
+              src="https://thumbs.dreamstime.com/b/vector-logo-home-appliances-black-decorative-label-illustration-big-collection-silver-color-kitchen-appliance-original-148036159.jpg?w=768"
+              alt="Logo"
+              class="h-12 w-28 object-cover"
+            />
+          </a>
+
+          <!-- Navigation -->
+          <nav class="hidden md:block">
+            <div class="flex space-x-5">
+              <a href="#" class="text-secondary font-medium hover:text-blue"
+                >Home</a
+              >
+              <a
+                href="#about"
+                class="text-secondary font-medium hover:text-blue"
+                >About</a
+              >
+              <a
+                href="product.html"
+                class="text-secondary font-medium hover:text-blue"
+                >Products</a
+              >
+              <a
+                href="#service"
+                class="text-secondary font-medium hover:text-blue"
+                >Services</a
+              >
+              <a
+                href="#blogs"
+                class="text-secondary font-medium hover:text-blue"
+                >Blogs</a
+              >
+              <a
+                href="contact.html"
+                class="text-secondary font-medium hover:text-blue"
+                >Contact</a
+              >
+              <a
+                href="faq.html"
+                class="text-secondary font-medium hover:text-blue"
+                >FAQ</a
+              >
+            </div>
+          </nav>
+
+          <!-- Icons -->
+          <div class="flex space-x-5">
+            <button>
+              <i class="fa-regular fa-moon text-secondary hover:text-blue"></i>
+            </button>
+            <button>
+              <i
+                class="fa-solid fa-cart-shopping text-secondary hover:text-blue"
+              ></i>
+            </button>
+            <button>
+              <i
+                class="fa-solid fas fa-user text-secondary hover:text-blue"
+              ></i>
+            </button>
+
+            <!-- Mobile Menu Button -->
+            <button class="block md:hidden">
+              <i class="fa-solid fa-bars text-secondary hover:text-blue"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="w-full bg-gray-400 px-10 py-15">
+      <!-- Decorative Background -->
+      <div
+        class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-blue/20 rounded-full blur-3xl opacity-30"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-primary/20 rounded-full blur-3xl opacity-30"
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-6 py-16 relative z-10">
+        <!-- Title -->
+        <div class="text-center mb-16">
+          <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+            Get in Touch
+          </h1>
+          <p class="text-lg text-black max-w-2xl mx-auto">
+            Have questions about our products or services? Our team is here to
+            help you.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Contact Form -->
+          <div class="bg-darklight/70 p-8 rounded-2xl shadow-2xl">
+            <form class="space-y-6">
+              <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label class="block mb-1 text-white">Full Name</label>
+                  <input
+                    type="text"
+                    class="w-full px-4 py-3 rounded-lg bg-dark border border-gray-600 focus:border-blue outline-none text-white"
+                    placeholder="Hello World"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label class="block mb-1 text-white">Email Address</label>
+                  <input
+                    type="email"
+                    class="w-full px-4 py-3 rounded-lg bg-dark border border-gray-600 focus:border-blue outline-none text-white"
+                    placeholder="example@gmail.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label class="block mb-1 text-white">Contact Number</label>
+                <input
+                  type="tel"
+                  class="w-full px-4 py-3 rounded-lg bg-dark border border-gray-600 focus:border-blue outline-none text-white"
+                  placeholder="+977-9841000000"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="block mb-1 text-white">Subject</label>
+                <select
+                  class="w-full px-4 py-3 rounded-lg bg-dark border border-gray-600 focus:border-blue outline-none text-white"
+                >
+                  <option>Product Support</option>
+                  <option>Sales Inquiry</option>
+                  <option>Partnership</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block mb-1 text-white">Message</label>
+                <textarea
+                  rows="4"
+                  class="w-full px-4 py-3 rounded-lg bg-dark border border-gray-600 focus:border-blue outline-none text-white"
+                  placeholder="How can we help you?"
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                class="w-full bg-blue py-3 rounded-lg text-white font-semibold hover:bg-primary transition"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="space-y-6">
+            <div class="bg-darklight/70 p-6 rounded-xl flex gap-5">
+              <i class="fa-solid fa-location-dot text-blue text-2xl"></i>
+              <div>
+                <h3 class="text-lg font-medium text-white">Visit Us</h3>
+                <p class="text-secondary/70">Banepa-6, Kavre</p>
+              </div>
+            </div>
+
+            <div class="bg-darklight/70 p-6 rounded-xl flex gap-5">
+              <i class="fa-solid fa-phone text-blue text-2xl"></i>
+              <div>
+                <h3 class="text-lg font-medium text-white">Call Us</h3>
+                <p class="text-secondary/70">+977-9841000000</p>
+              </div>
+            </div>
+
+            <div class="bg-darklight/70 p-6 rounded-xl flex gap-5">
+              <i class="fa-solid fa-envelope text-blue text-2xl"></i>
+              <div>
+                <h3 class="text-lg font-medium text-white">Email</h3>
+                <p class="text-secondary/70">support@homeappliances.com</p>
+              </div>
+            </div>
+            <div class="mt-6 rounded-xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.123456789!2d85.527!3d27.622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1c7e12345678%3A0xabcdef123456789!2sBanepa%2C%20Kavre!5e0!3m2!1sen!2snp!4v1700000000000!5m2!1sen!2snp"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--footer section-->
+    <footer>
+      <section class="bg-[#525252] w-full">
+        <div class="container mx-auto py-10 px-10">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div>
+              <a href="index.html">
+                <img
+                  src="https://thumbs.dreamstime.com/b/vector-logo-home-appliances-black-decorative-label-illustration-big-collection-silver-color-kitchen-appliance-original-148036159.jpg?w=768"
+                  alt="Logo"
+                  class="h-12 w-28 object-cover"
+                />
+              </a>
+              <div>
+                <span class="text-white/50"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Blanditiis unde velit iure debitis magni porro quam minima
+                  quas veritatis alias.</span
+                >
+              </div>
+
+              <div class="flex space-x-5 pb-10 pt-5">
+                <div
+                  class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white"
+                >
+                  <i class="fa-brands fa-facebook text-lg text-blue"></i>
+                </div>
+                <div
+                  class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white"
+                >
+                  <i class="fa-brands fa-tiktok text-lg text-blue"></i>
+                </div>
+                <div
+                  class="bg-white/50 h-9 w-9 rounded-full flex items-center justify-center hover:bg-white"
+                >
+                  <i class="fa-brands fa-instagram text-lg text-blue"></i>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <h3 class="text-lg font-medium text-white">Quick links</h3>
+              </div>
+              <div class="flex flex-col space-y-2 pb-10">
+                <a
+                  href="#"
+                  class="text-white hover:text-blue transition duration-300"
+                  >Home</a
+                >
+                <a
+                  href="#"
+                  class="text-white hover:text-blue transition duration-300"
+                  >About</a
+                >
+                <a
+                  href="product.html"
+                  class="text-white hover:text-blue transition duration-300"
+                  >Product</a
+                >
+                <a
+                  href="#"
+                  class="text-white hover:text-blue transition duration-300"
+                  >Service</a
+                >
+                <a
+                  href="#"
+                  class="text-white hover:text-blue transition duration-300"
+                  >Blogs</a
+                >
+                <a
+                  href="#"
+                  class="text-white hover:text-blue transition duration-300"
+                  >Contact</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-medium text-white">Customer Services</h3>
+              <div class="flex flex-col space-y-2 pb-10">
+                <span class="text-white/50">Privacy Policy</span>
+                <span class="text-white/50">Terms of Service</span>
+                <span class="text-white/50">FAQs</span>
+                <span class="text-white/50">Support Center</span>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-medium text-white">We Accept</h3>
+              <div class="flex space-x-5 pb-10">
+                <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                  <i class="fa-brands fa-cc-visa text-blue"></i>
+                </div>
+                <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                  <i class="fa-brands fa-cc-paypal text-[#1f264f] text-xl"></i>
+                </div>
+                <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                  <i class="fa-brands fa-cc-apple-pay text-black text-xl"></i>
+                </div>
+                <div class="bg-white/50 px-2 rounded text-xl hover:bg-white">
+                  <i
+                    class="fa-brands fa-cc-mastercard text-red-500 text-xl"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer section end -->
+  </body>
+</html>
